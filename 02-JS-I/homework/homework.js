@@ -178,8 +178,13 @@ function redondearNumero(num) {
 function redondearHaciaArriba(num) {
   // Redondea "num" hacia arriba (al próximo entero) y devuélvelo
   // Tu código:
-  z=num+1;
-  return(Math.round(z));
+  if(Number.isInteger(num==true)){
+    return(num);
+  }else{
+    z=num+1;
+    return(Math.round(z));
+  }
+  
   
 }
 
