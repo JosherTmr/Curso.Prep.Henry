@@ -274,7 +274,7 @@ function esVocal(letra){
   //Escribe tu código aquí
   if(letra.length>1){
     return("Dato incorrecto")
-  }else if (letra!="a" || letra!="e"|| letra!="i"|| letra!="o"|| letra!="u"||letra!="A" || letra!="E"|| letra!="I"|| letra!="O"|| letra!="U"){
+  }else if (letra!='a' || letra!='e' || letra!='i'|| letra!='o'|| letra!='u'||letra!='A' || letra!='E'|| letra!='I'|| letra!='O'|| letra!='U'){
     return("Dato incorrecto")
 
   }else{
