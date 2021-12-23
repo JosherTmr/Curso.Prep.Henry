@@ -181,7 +181,7 @@ function redondearHaciaArriba(num) {
   if(Number.isInteger(num==true)){
     return(num);
   }else{
-    z=num+1;
+    z=num+0.5;
     return(Math.round(z));
   }
   
