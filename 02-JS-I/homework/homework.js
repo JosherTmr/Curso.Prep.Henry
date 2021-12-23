@@ -178,7 +178,7 @@ function redondearNumero(num) {
 function redondearHaciaArriba(num) {
   // Redondea "num" hacia arriba (al próximo entero) y devuélvelo
   // Tu código:
-  if(Number.isInteger(num==true)){
+  if(Number.isInteger(num)==true){
     return(num);
   }else{
     z=num+0.5;
