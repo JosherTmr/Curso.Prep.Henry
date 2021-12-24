@@ -111,11 +111,9 @@ function esEntero(numero) {
   // Tu código:
   z=numero+1
   if (numero>Math.floor(numero)&& numero<Math.floor(z)){
-    return(false)
-  }else if(numero<0){
-    return(false)
+    return(false);
   }else {
-    return(true)
+    return(true);
   }
   
 }
@@ -125,12 +123,12 @@ function fizzBuzz(numero) {
   // Si "numero" es divisible entre 5, devuelve "buzz"
   // Si "numero" es divisible entre 3 y 5 (ambos), devuelve "fizzbuzz"
   // De lo contrario, devuelve el numero
-  if (numero%3===1){
+  if (numero%3===0){
     return("fizz");
-  }else if(numero%5===1){
+  }else if(numero%5===0){
     return("buzz");
 
-  }else if (numero%3===1 && numero%5===1){
+  }else if (numero%3===0 && numero%5===0){
     return("fizzbuzz");
   }else{
     return(numero)
@@ -188,7 +186,7 @@ function esVerdadero(valor){
   if(valor===true){
     return("Soy verdadero")
   } else{
-    return("Soy false")
+    return("Soy falso")
   }
 
 }
