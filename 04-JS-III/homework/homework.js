@@ -61,10 +61,16 @@ function dePalabrasAFrase(palabras) {
   // Ejemplo: ['Hello', 'world!'] -> 'Hello world!'
   // Tu código:
   frase="";
-  for(var i=0; i<palabras.length;i++){
-    frase += palabras[i]+" ";
+  if(palabras.length==1){
+    return(palabras[0])
+  }else {
+    for(var i=0; i<palabras.length-1;i++){
+      frase += palabras[i]+" ";
+    }
+    return(frase+palabras[palabras.length-1]);
+
   }
-  return(frase);
+  
 }
 
 
