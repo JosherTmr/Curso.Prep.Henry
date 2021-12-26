@@ -244,6 +244,19 @@ function breakStatement(numero) {
   //devolver: "Se interrumpió la ejecución"
   //Pista: usá el statement 'break'
   // Tu código:
+  arr=[];
+  counter=0;
+  num=0;
+  while (counter<10){
+    num+=2;
+    arr.push(num);
+    counter++;
+    if (counter===num){
+      return("Se interrumpió la ejecución")
+      break;
+    }
+  }
+  return(arr)
 }
 
 
