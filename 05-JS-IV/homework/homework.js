@@ -135,7 +135,7 @@ function pasarUsuarioAPremium(usuarios) {
   // Devuelve el array de usuarios
   // Tu código:
   for (var i=0; i<usuarios.length;i++){
-    usuarios[i][esPremiun]=true
+    usuarios[i]['esPremiun']=true;
 
   }
   return(usuarios)
