@@ -18,7 +18,9 @@ function crearUsuario() {
       return("Hola, mi nombre es "+ this.nombre)
 
     }
-}
+  }
+  return(Usuario)
+
 
 }
 
